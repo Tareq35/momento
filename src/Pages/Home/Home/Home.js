@@ -1,9 +1,15 @@
 import React from 'react';
+import CreatePost from '../CreatePost/CreatePost';
+import TopPosts from '../TopPosts/TopPosts';
 
 const Home = () => {
     return (
         <div>
-            <h2>This is Home</h2>
+            <CreatePost/>
+            <TopPosts/>
+            <div>
+                
+            </div>
         </div>
     );
 };
